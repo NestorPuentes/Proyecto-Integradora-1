@@ -1,0 +1,66 @@
+.bg-jumbotron {
+  background-image: url(/Apps/TURIMAR/images/BGciudad.jpg);
+  background-position: 5%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{background: linear-gradient(#b3b3b3b3, 50%, #6DA9CD );}
+
+.menu{
+    height: 80px;
+    background-color: rgba(245, 245, 245, 0.8); 
+    transition: all .2s linear;
+}
+.menu:hover{
+    background: whitesmoke ;
+}
+
+.logo {
+    --logo:130%;
+  height: var(--logo);
+  width: var(--logo);
+}
+
+.menu a {
+  color: rgb(87, 74, 26);
+}
+.link{transition: all .2s linear;}
+.link:hover{
+  transform: scale(1.2);
+  border: solid .5px; border-radius: 5px;
+  background: rgb(228, 226, 226);
+}
+
+.search-menu {
+  height: 30px;
+}
+
+.posicion{
+  z-index: 1;
+}
+
+/* .sidebar{ } */
+
+.seccion {
+  transition: all 0.3s linear;
+}
+.seccion:hover {
+  transform: scale(1.075);
+  background-color: #f1efef48;;
+}
+.seccion img {
+  border-radius: 5px;
+}
+
+.separador{border: solid 1px;}
+
+.seccion3{height: 400px;}
+
+.footer{
+    color: #9396A2;
+}
+
+.ubicacion{
+  height: 250px; width: 500px;
+}
